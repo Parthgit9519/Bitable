@@ -2,14 +2,9 @@ import { Element } from "react-scroll";
 
 import { details, features } from "../constants/index.jsx";
 import Button from "../components/Button.jsx";
-import { useEffect } from "react";
-import { flyInCards } from "../utils/gsapAnimation.jsx";
 
 const Features = () => {
   return (
-
-    
- 
     <section>
       <Element name="features">
         <div className="container">

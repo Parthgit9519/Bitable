@@ -40,7 +40,7 @@ export default function ScrollVideo() {
         ref={videoRef}
         src="/videos/video.mp4"
         className="rounded-xl shadow-xl"
-        width={555}
+        width={560}
         height={655}
         muted
         playsInline
@@ -51,7 +51,7 @@ export default function ScrollVideo() {
       {!soundEnabled && (
         <button
           onClick={enableSound}
-          className=" text-black font-semibold px-5 py-2 rounded-lg shadow hover:bg-gray-200 transition-all"
+          className=" text-black font-semibold px-5 py-2 rounded-lg shadow hover:bg-gray-900 transition-all"
         >
           🔊
         </button>
